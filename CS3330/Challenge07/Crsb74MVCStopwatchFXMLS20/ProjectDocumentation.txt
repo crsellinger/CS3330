@@ -1,0 +1,16 @@
+CS3330 Final Project Documentation
+
+Notes:
+	-This project is an expansion of Challenge 7
+	-There are no collection classes or save data implemented
+
+Requirements:
+1) Classes: AboutModel, AbstractModel, AnalogModel, DigitalModel, RecordModel, FXMLDocumentController, Page2Controller
+	Subclasses: RecordModel, AnalogModel, DigitalModel (extend AbstractModel)
+	Abstract Class: AbstractModel
+	Interfaces: Initializable, PropertyChangeListener
+2) No collection classes implemented, try-catch statement in AboutModel (lines 29-43)
+3)Everything follows MVC except for the buttons that switch scenes
+4)There are two scenes: First is the main scene with the clocks, second is the scene with 'about' information
+5)Click the About button in the bottom right corner
+6)Application does NOT save/load data (the 'about' page does load a .txt file on initialization)

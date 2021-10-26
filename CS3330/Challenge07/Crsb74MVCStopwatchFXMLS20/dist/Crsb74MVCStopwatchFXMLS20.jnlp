@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Crsb74MVCStopwatchFXMLS20.jnlp">
+  <information>
+    <title>Crsb74MVCStopwatchFXMLS20</title>
+    <vendor>Caleb Sellinger</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Crsb74MVCStopwatchFXMLS20.jar" size="27627" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Crsb74MVCStopwatchFXMLS20" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="crsb74mvcstopwatchfxmls20.Crsb74MVCStopwatchFXMLS20"  name="Crsb74MVCStopwatchFXMLS20" />
+  <update check="always"/>
+</jnlp>
